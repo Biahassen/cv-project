@@ -10,10 +10,10 @@ const Skills = () => (
       
     </div>
     <div className="app__newsletter-input">
-    <p className="p__opensans">Add ny skills you have</p>
-      <input type="email" placeholder="Enter your skill" />
+    <p className="p__opensans">Any skills you have</p>
+      <input type="text" placeholder="Computer typing skills" />
       <p className="p__opensans">Any additional skill</p>
-      <input type="email" placeholder="Enter additional skill" />
+      <input type="text" placeholder="None" />
     </div>
     <button type="submit" className="custom__button">Submit</button>
   </div>
