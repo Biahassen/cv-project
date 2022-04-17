@@ -10,14 +10,15 @@ const Work = () => (
      
     </div>
     <div className="app__newsletter-input">
-    <p className="p__opensans">Enter previous work experience</p>
-      <input type="text" placeholder="Company name" />
+    <p className="p__opensans">Company name</p>
+      <input type="text" placeholder="Unilever" />
+      <p className="p__opensans">Position</p>
+      <input type="text" placeholder="Volunteer trainer" />
+      <p className="p__opensans">Tasks</p>
+      <input type="text" placeholder="train students about oral health" />
+      <p className="p__opensans">Duration</p>
+      <input type="text" placeholder="2 weeks" />
       
-      <p className="p__opensans">Enter duration</p>
-      <input type="text" placeholder="Years" />
-      
-      
-      {/* <button type="button" className="custom__button">Subscribe</button> */}
     </div>
   </div>
 );
